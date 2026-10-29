@@ -1,0 +1,16 @@
+name: SellAxe
+version: 1.0.0
+main: br.com.kartsmp.sellaxe.SellAxePlugin
+api-version: '1.21'
+description: Machado que vende automaticamente o conteúdo de baús.
+author: KartSMP
+depend: [Vault]
+commands:
+  sellaxe:
+    description: Gerencia o MachadoVendedor
+    usage: /sellaxe give <jogador>
+    permission: sellaxe.admin
+permissions:
+  sellaxe.admin:
+    description: Permite entregar o MachadoVendedor
+    default: op

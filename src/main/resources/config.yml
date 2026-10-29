@@ -1,0 +1,39 @@
+# Preço por unidade. Os materiais que não estiverem listados usam default-price.
+# Ajuste os preços conforme a economia do seu servidor.
+default-price: 1.0
+
+prices:
+  DIAMOND: 100.0
+  EMERALD: 60.0
+  GOLD_INGOT: 15.0
+  IRON_INGOT: 8.0
+  COPPER_INGOT: 3.0
+  COAL: 2.0
+  REDSTONE: 2.0
+  LAPIS_LAZULI: 3.0
+  NETHERITE_INGOT: 500.0
+  ANCIENT_DEBRIS: 150.0
+  GOLDEN_APPLE: 25.0
+  ENCHANTED_GOLDEN_APPLE: 250.0
+  OAK_LOG: 1.0
+  SPRUCE_LOG: 1.0
+  BIRCH_LOG: 1.0
+  JUNGLE_LOG: 1.0
+  ACACIA_LOG: 1.0
+  DARK_OAK_LOG: 1.0
+  MANGROVE_LOG: 1.0
+  CHERRY_LOG: 1.0
+  CRIMSON_STEM: 1.0
+  WARPED_STEM: 1.0
+
+messages:
+  prefix: "&c&lSellAxe &8» &r"
+  no-permission: "&cVocê não tem permissão."
+  usage: "&cUse: /sellaxe give <jogador>"
+  player-not-found: "&cJogador não encontrado."
+  given: "&aVocê entregou o MachadoVendedor para &e%player%&a."
+  received: "&aVocê recebeu o &c&lMachadoVendedor&a!"
+  sold: "&aConteúdo do baú vendido por &e$%amount%&a."
+  no-items: "&cEsse baú está vazio."
+  economy-missing: "&cA economia do Vault não foi encontrada. Avise um administrador."
+  cannot-repair: "&cO MachadoVendedor não pode ser reparado na bigorna."
